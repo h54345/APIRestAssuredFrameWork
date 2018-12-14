@@ -35,9 +35,9 @@ public class GetData {
 		request.header("Content-Type","application/json");
 
 		JSONObject json = new JSONObject();
-		json.put("id","26");
-		json.put("title","SecondPost");
-		json.put("author","LearningPost");
+		json.put("id","27");
+		json.put("title","ThirdPost");
+		json.put("author","LearningassuredPost");
 
 		request.body(json.toJSONString());
 
