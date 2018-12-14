@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="APITestingSuite" duration-ms="7140" started-at="2018-12-01T05:09:44Z" finished-at="2018-12-01T05:09:51Z">
+  <suite name="Default suite" duration-ms="2905" started-at="2018-12-14T05:46:59Z" finished-at="2018-12-14T05:47:02Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7140" started-at="2018-12-01T05:09:44Z" finished-at="2018-12-01T05:09:51Z">
+    <test name="Default test" duration-ms="2905" started-at="2018-12-14T05:46:59Z" finished-at="2018-12-14T05:47:02Z">
       <class name="getRequest.GetData">
-        <test-method status="PASS" signature="testResponseCode()[pri:0, instance:getRequest.GetData@7dc7cbad]" name="testResponseCode" duration-ms="4639" started-at="2018-12-01T05:09:44Z" finished-at="2018-12-01T05:09:48Z">
+        <test-method status="PASS" signature="posttest()[pri:3, instance:getRequest.GetData@1753acfe]" name="posttest" duration-ms="2818" started-at="2018-12-14T05:46:59Z" finished-at="2018-12-14T05:47:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testResponseCode -->
-        <test-method status="PASS" signature="testBody()[pri:1, instance:getRequest.GetData@7dc7cbad]" name="testBody" duration-ms="2419" started-at="2018-12-01T05:09:48Z" finished-at="2018-12-01T05:09:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBody -->
+        </test-method> <!-- posttest -->
       </class> <!-- getRequest.GetData -->
-    </test> <!-- Test -->
-  </suite> <!-- APITestingSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
